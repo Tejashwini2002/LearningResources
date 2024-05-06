@@ -78,7 +78,7 @@ Subsequences whose elements on adding give the required sum are:
 [2, 3, -1]
 [4]
 */
-/*If you want distinct subsets, then you can  convert the data structure to a set as set removes the duplicates and maintains unique elements.          
+/*If you want distinct subsequences, then you can convert the data structure to a set as set removes the duplicates and maintains unique elements.          
 Set<String> set = new HashSet<>(distinctsubseqlist);
 System.out.println(set);
 */
