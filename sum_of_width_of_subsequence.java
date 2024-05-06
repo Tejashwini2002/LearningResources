@@ -1,3 +1,8 @@
+/*
+The width of a sequence is the difference between the maximum and minimum elements in the sequence.
+
+Given an array of integers nums, return the sum of the widths of all the non-empty subsequences of nums.
+*/
 import java.util.Collections;
 import java.util.ArrayList;
 import java.util.Scanner;
