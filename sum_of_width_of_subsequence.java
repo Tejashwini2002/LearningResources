@@ -23,11 +23,9 @@ public class sum_of_width_of_subsequence  {
             return;
         } 
         list.add(arr[index]);
-        sum = sum+arr[index];
         printSubsequences(index+1, list, arr, n);
         int lastindex = list.size()-1;
         list.remove(lastindex);
-        sum = sum-arr[index];
         printSubsequences(index+1, list, arr, n);
      
     }
