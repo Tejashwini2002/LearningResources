@@ -1,4 +1,4 @@
-// Source code is decompiled from a .class file using FernFlower decompiler.
+
 import java.util.Scanner;
 
 class LawsofMotion2 extends Vehicle {
