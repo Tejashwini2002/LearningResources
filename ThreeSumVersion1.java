@@ -1,3 +1,23 @@
+/*
+Problem statement
+You are given an array ‘ARR’ containing ‘N’ integers.
+
+Return all the  triplets [ARR[i], ARR[j], ARR[k]] such that i != j, j != k and k != i and their sum is equal to zero.
+
+Example:
+Input: ‘N’ = 6 
+'ARR' =  [-1 0 1 2 -1 -4] 
+
+Output:
+Answer:
+[-1, -1, 2]
+[-1, 0, 1]
+[0, 0, 0]
+[-4, 2, 2]
+
+Explanation:
+((-1) +(-1) +2)) = ((-4)+2+2) = (-1+ 0+ 1)=(0+0+0) = 0.
+*/
 // Brute force approach
 import java.util.List;
 import java.util.Set;
