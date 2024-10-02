@@ -2,7 +2,7 @@
 Problem statement
 You are given an array ‘ARR’ containing ‘N’ integers.
 
-Return all the  triplets [ARR[i], ARR[j], ARR[k]] such that i != j, j != k and k != i and their sum is equal to zero.
+Return all the unique triplets [ARR[i], ARR[j], ARR[k]] such that i != j, j != k and k != i and their sum is equal to zero.
 
 Example:
 Input: ‘N’ = 6 
@@ -18,6 +18,7 @@ Answer:
 Explanation:
 ((-1) +(-1) +2)) = ((-4)+2+2) = (-1+ 0+ 1)=(0+0+0) = 0.
 */
+// If I was allowed to take the same element multiple times
 // Brute force approach
 import java.util.List;
 import java.util.Set;
@@ -81,7 +82,7 @@ public class ThreeSumVersion1 {
         }
     }
 }
-// If I was allowed to take the same element multiple times
+
 /*
 Enter the number of elements in the array: 
 6
