@@ -1,3 +1,20 @@
+/*
+Problem statement
+You are given an array ‘ARR’ containing ‘N’ integers.
+
+Return all the unique triplets [ARR[i], ARR[j], ARR[k]] such that i != j, j != k and k != i and their sum is equal to zero.
+
+Example:
+Input: ‘N’ = 5 
+'ARR' =  [-1, -1, 2, 0, 1] 
+
+Output: 
+-1 -1 2
+-1 0 1
+
+Explanation:
+(-1 -1 +2) = (-1 +0 +1) = 0.
+*/
 // Brute force approach
 import java.util.List;
 import java.util.Set;
